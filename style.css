@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+            /*Header (Section 1)*/
+header{
+    width: 100%;
+    height: 100px;
+}
+header nav{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 70%;
+    height: 67%;
+    margin-left: 200px;
+}
+header nav a{
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 35px;
+}
+                    /*Section 2*/
+.section2{
+    width: 100%;
+    height: 650px;
+    padding: 200px;
+    background: url("fond.png");
+}
+.section2 .tofbakeli{
+    margin: auto;
+    display: flex;
+    width: 150px;
+    height: 80px;
+}
+.section2 .tofbakeli img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.section2 .h h3{
+    margin: auto;
+    text-align: center;
+    color: white;
+    width: 300px;
+    background-color: gray;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.section2 .divp p{
+   text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+                    /*Section 3*/
+.section3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+.section3 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    padding: 50px;
+}
+.section3 .container .rond{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.section3 .container .rond .image{
+    height: 100px;
+    width: 100px;
+    border: 2px solid #379E88;
+    border-radius: 50%;
+    padding: 25px;
+    margin-bottom: 25px;
+    margin-left: 85px;
+}
+.section3 h2{
+    margin-bottom: 20px;
+}
+                    /*Section 4*/
+.section4{
+    width: 100%;
+    height: 200px;
+    background-color: #BDB7AB;
+    position: relative;
+    justify-content: center;
+}
+.section4 h1{
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+.section4 nav{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 70%;
+    height: 67%;
+    margin-left: 190px;
+}
+.section4 nav a{
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 35px;  
+}
+                    /*Section 5*/
+.section5{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 560px;
+}
+.section5 .haut{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+.section5 .haut .wp{
+    width: 25%;
+    height: 100%;
+}
+.section5 .haut .wp img{
+    width: 100%;
+    height: 100%;
+}
+.section5 .haut .htcs{
+    width: 25%;
+    height: 100%;
+}
+.section5 .haut .htcs img{
+    width: 100%;
+    height: 100%;
+}
+.section5 .haut .canva{
+    width: 25%;
+    height: 100%;
+}
+.section5 .haut .canva img{
+    width: 100%;
+    height: 100%;
+}
+.section5 .haut .js{
+    width: 25%;
+    height: 100%;
+}
+.section5 .haut .js img{
+    width: 100%;
+    height: 100%;
+}
+.section5 .bas{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+.section5 .bas .java{
+    width: 25%;
+    height: 100%;
+}
+.section5 .bas .java img{
+    width: 100%;
+    height: 100%;
+}
+.section5 .bas .inkcp{
+    width: 25%;
+    height: 100%;
+}
+.section5 .bas .inkcp img{
+    width: 100%;
+    height: 100%;
+}
+.section5 .bas .ae{
+    width: 25%;
+    height: 100%;
+}
+.section5 .bas .ae img{
+    width: 100%;
+    height: 100%;
+}
+.section5 .bas .python{
+    width: 25%;
+    height: 100%;
+}
+.section5 .bas .python img{
+    width: 100%;
+    height: 100%;
+}
+                    /*Section 6*/
+.section6{
+    width: 100%;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section6 .text{
+    padding: 100px;
+    gap: 20px;
+}
+.section6 .text h1{
+    text-align: center;
+}
+.section6 .text p{
+    text-align: center;
+    margin-top: 50px;
+}
+.barre{
+    width: 70vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 60px;
+    grid-column-gap: 100px;
+    margin-left: 190px;
+}
+.barre .skill_bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 10px;
+}
+.barre .skill_bar .info p:first-child{
+    font-weight: bold;
+}
+.skill_bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 25px;
+    margin-top: 5px;
+    position: relative;
+}
+.skill_bar .bar span{
+    height: 100%;
+    position: absolute;
+    background-color: #8AA7B0;
+    border-radius: 25px;
+}
+.skill_bar .bar .opp{
+    width: 90%;
+}
+.skill_bar .bar .prat{
+    width: 100%;
+}
+.skill_bar .bar .bakins{
+    width: 80%;
+}
+.skill_bar .bar .vide{
+    width: 75%;
+}
+                    /*Section 7*/
+.section7{
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #8AA7B0;
+
+}
+.section7 .text{
+    padding: 30px;
+    gap: 30px;
+}
+.section7 .text h1{
+    text-align: center;
+    color: white;
+}
+.section7 .text p{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+.section7 .profil{
+    display: flex;
+    width: 80%;
+    gap: 15px;
+    margin-left: 20px;
+}
+.section7 .profil .image:hover img{
+    transform: scale(1.1);
+}
+                    /*Section 8*/
+.section8{
+    width: 100%;
+    height: 350px;
+}
+.section8 .image{
+    margin: auto;
+    display: flex;
+    width: 100px;
+    height: 80px;
+}
+.section8 .image img{
+    width: 100%;
+    height: 100%;
+}
+.section8 .p1{
+    text-align: center;
+    padding: 80px;
+}
+.section8 .p2{
+    text-align: center;
+    font-weight: bold;
+}
+                    /*Footer*/
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: #C5C5C5;
+}
+footer h1{
+    text-align: center;
+    font-size: medium;
+    padding: 40px;
+}
+footer .plus{
+    display: flex;
+    gap: 60px;
+    margin-left: 260px;
+}
+footer .plus p{
+    padding: 10px;
+}
+footer h2{
+    text-align: center;
+    font-size: medium;
+    padding: 80px;
+}
+footer .bas{
+    text-align: center;
+    padding: 40px;
+}
