@@ -243,7 +243,8 @@
     footer .plus{
         display: flex;
         flex-direction: column;
-        margin: auto;
+        text-align: center;
+        margin-left: 0px;
         gap: 15px;
     }
     footer .plus p{
